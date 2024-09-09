@@ -1,5 +1,5 @@
 # GADACE: Graph Anomaly Detection Combining Attribute Contrast and Structure Reconstruction
-This is the official implementation of the submission "GADACE: Graph Anomaly Detection Combining Attribute Contrast and Structure Reconstruction". All the experiments are conducted on a Linux server with Intel® Xeon® Platinum 8352V CPU and NVIDIA® Tesla A800 80GB GPU.
+This is the official implementation of "GADACE: Graph Anomaly Detection Combining Attribute Contrast and Structure Reconstruction" submitted to ICASSP 2025. All the experiments are conducted on a Linux server with Intel® Xeon® Platinum 8352V CPU and NVIDIA® Tesla A800 80GB GPU.
 
 ### 1. Dependencies (with python = 3.8):
 ```
