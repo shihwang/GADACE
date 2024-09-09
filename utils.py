@@ -54,14 +54,14 @@ def idx_sample(idxes):
 def row_normalization(feats):
     return F.normalize(feats, p=2, dim=1)
 
-def my_load_data(dataname, path='/home/sherry/code/GADACE/data/'):
+def my_load_data(dataname, path='/home/GADACE/datasets/'):
     data_dir = path + dataname + '.bin'
     graph = load_graphs(data_dir)
 
     return graph[0][0]
 
 def my_load_data_bond(dataname):
-    file_path='/home/sherry/code/GADACE/data/' + dataname + '.pt/' + dataname + '.pt'
+    file_path='/home/GADACE/datasets/' + dataname + '.pt/' + dataname + '.pt'
     data = torch.load(file_path)
     
     # PyG to DGL
